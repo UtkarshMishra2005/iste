@@ -1,0 +1,318 @@
+/* *{
+    overflow-x: hidden;
+} */
+#logo{
+    height: 7vw ;
+    width:15vw
+}
+body{
+    /* margin: 3vw; */
+    background-color:white;
+    border: 4vw  gray solid;
+    /* border-color: grey; */
+    /* border: solid; */
+    z-index: -2;
+}
+/* .back{
+    margin: 2vw;
+    background-color: white;
+    z-index: 2;
+} */
+.nav-bar{
+    margin: 2vw;
+
+    gap: 18vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.nav{
+    display: flex;
+    /* margin-left: 10vw; */
+    margin-top: 2vw;
+    justify-content: center ;
+    gap: 2vw;
+}
+a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: gray;
+}
+.hidden{
+    display: none;
+}
+
+.sign{
+    /* margin-top: 1.5vw; */
+    font-size: 2vw;
+    border-radius: 25px;
+}
+.herotext{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+
+}
+.normal{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    text-align: center;
+}
+
+/* .herosection{
+    margin: 2vw;
+    
+} */
+.heroimage{
+    display: flex;
+    gap: 5vw;
+}
+.icon{
+    height: 4vw;
+    width: 4vw;
+}
+.heroimage{
+    display: flex;
+
+    justify-content: center;
+    gap: 3vw;
+    padding-bottom:  2vw;
+}
+.box0{
+    background-color:rgba(192, 192, 192, 0.858);
+    height: 22vw;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 2vw;
+    overflow: hidden;
+    
+
+}
+.dollar{
+    display: flex;
+    
+    font-size: 2.5vw;
+
+}
+#icon{
+   padding-top: 1.5vw;
+    height: 5vw;
+    width:3vw
+}
+.but{
+    border-radius: 25px;
+    font-size: 1.5vw;
+}
+.boxt{
+    padding-top: 0;
+    font-size: 2vw;
+}
+
+.box1{
+    background-color:rgba(192, 192, 192, 0.858);
+    height: 30vw;
+    width: 24vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#rev{
+    transform: scaleX(-1);
+    
+    height: 3vw;
+    width: 3vw;
+}
+.svg{
+    display: flex;
+
+    gap: 2vw;
+}
+.svg1{
+    display: flex;
+    padding-top: 1vw;
+    gap: 8vw;
+}
+.boxth{
+    font-size: 3vw;
+}
+
+
+.apple{
+    height: 4vw;
+    width: 12vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 1vw;
+}
+#apple{
+    height: 2.5vw;
+    width: 2vw;
+}
+.box2{
+    background-color:rgba(192, 192, 192, 0.858);
+    height: 26vw;
+    width: 24vw;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+.b1{
+    
+    height: 5vw;
+    width:10vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 12vw;
+    margin-top: 2vw;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    
+
+}
+.b2{
+    
+    height: 4vw;
+    width:10vw;
+    font-size: 1vw;
+    display: flex;
+    position: relative;
+    margin-top:5vw ;
+    padding-top: 2vw;
+    
+    
+    margin-left: 9vw;
+    
+    background-color: white;
+    border-radius: 25px;
+    
+    
+}
+
+.b3{
+    z-index: 1;
+    height: 5vw;
+    width: 10vw;
+    margin-left:5vw ;
+    background-color: white;
+    font-size: 1vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: -2vw;
+    overflow: hidden;
+
+}
+.b4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    margin: 2vw;
+}
+#arrow{
+    height: 1.5vw;
+}
+.arrow{
+    height:2vw;
+
+    background-color: white;
+}
+#netf{
+    border-radius: 50%;
+
+}
+#spotify{
+    fill: green;
+}
+.hamburger,.cross{
+    display: none;
+    align-self: flex-end;
+}
+/* .app{
+    overflow-x:visible ;
+} */
+
+
+@media(max-width:500px){
+    .heroimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box0{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .hei{
+        height: 5vw;
+    }
+    .rs{
+        height: 3vw;
+        overflow: hidden;
+    }
+    .but{
+        height: 3vw;
+        overflow: hidden;
+    }
+    .dollar{
+        overflow: hidden;
+    }
+    .nav{
+        display: none;
+
+    }
+    #hide{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hidden{
+        display: none;
+        line-height: 4vh;
+        border: 1vh solid gray;
+        
+        flex-direction: column;
+        text-align: right;
+        padding-right: 4vw;
+        width: 20vw;
+        margin-left: auto;
+        margin-right: 3vw;
+    }
+   
+    .sign{
+        width: 10vw;
+        align-self:flex-end ;
+    }
+    
+}
